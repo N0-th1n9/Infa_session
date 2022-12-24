@@ -1,17 +1,68 @@
 package main
 
+import (
+	. "Infa_session/Internal"
+	"fmt"
+)
+
 func main() {
-	//multiplicationTableV1(1)
-	/*a := 15
-	fmt.Println("\nV1")
-	multiplicationTableV1(a)
-	fmt.Println("\nV2")
-	multiplicationTableV2()*/
+	//a := 15
+	//fmt.Println("\nV1")
+	//MultiplicationTableV1(a)
+	//fmt.Println("\nV2")
+	//MultiplicationTableV2(a)
 
 	//max(4)
-	/*a := []int{1, 2, 3, 4, -5, 10000, 4}
-	maxCount(a)*/
+	//a := []int{1, 2, 3, 4, -5, 10000, 4}
+	//MaxCount(a)
 
-	/*a := []int{5, 5, 4, 15, 20, 1, 3, 300}
-	fmt.Println(maxMulti(a))*/
+	//b := []int{5, 5, 4, 15, 20, 1, 3, 300}
+	//fmt.Println(MaxMulti(b))
+
+	//var b float64 = 2
+	//var x float64 = 0
+	//for ; x <= 3*(math.Pi); x += 0.1 * (math.Pi) {
+	//	fmt.Println(FuncSin(b, x))
+	//}
+
+	//a := 10
+	//b := 40
+	//Rectangle(a, b)
+	//RectangleV2(a, b)
+
+	//a := 10
+	//Step(a)
+
+	//arr := []int{1, 2, 3, 4, 5, 6, 100, 54, 32, 2}
+	//SumOfNumbers(arr)
+
+	//h1 := "Камень"
+	//h2 := "Бумага"
+	//switch h1 {
+	//case "Камень":
+	//	h1 = "1"
+	//case "Ножницы":
+	//	h1 = "2"
+	//case "Бумага":
+	//	h1 = "3"
+	//}
+	//switch h2 {
+	//case "Камень":
+	//	h1 = "1"
+	//case "Ножницы":
+	//	h1 = "2"
+	//case "Бумага":
+	//	h1 = "3"
+	//}
+	//StonePaperScissors(h1, h2)
+
+	/*convertTo := "С"
+	var temperature float64 = 89.6
+	fmt.Println(fmt.Sprintf("%.1f", ConvertTemp(temperature, convertTo)))*/
+
+	var km float64 = 10
+	var mils float64 = 10
+	fmt.Println("KmFromMils = ", fmt.Sprintf("%.3f", KmFromMils(mils)))
+	fmt.Println("MilsFromKm = ", fmt.Sprintf("%.3f", MilsFromKm(km)))
+
 }
