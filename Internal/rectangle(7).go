@@ -20,12 +20,3 @@ func Rectangle(a, b int) {
 	}
 	fmt.Println()
 }
-
-func RectangleV2(a, b int) {
-	for i := 1; i <= a; i++ {
-		for j := 1; j <= b; j++ {
-			fmt.Print("*")
-		}
-		fmt.Println()
-	}
-}

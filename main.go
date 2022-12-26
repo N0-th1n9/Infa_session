@@ -60,9 +60,26 @@ func main() {
 	var temperature float64 = 89.6
 	fmt.Println(fmt.Sprintf("%.1f", ConvertTemp(temperature, convertTo)))*/
 
-	var km float64 = 10
-	var mils float64 = 10
-	fmt.Println("KmFromMils = ", fmt.Sprintf("%.3f", KmFromMils(mils)))
-	fmt.Println("MilsFromKm = ", fmt.Sprintf("%.3f", MilsFromKm(km)))
+	//var km float64 = 10
+	//var mils float64 = 10
+	//fmt.Println("KmFromMils = ", fmt.Sprintf("%.3f", KmFromMils(mils)))
+	//fmt.Println("MilsFromKm = ", fmt.Sprintf("%.3f", MilsFromKm(km)))
 
+	//Factorial(10)
+
+	//arr := []string{"0", "1", "1", "0", "1", "0"}
+	//Bit(arr)
+
+	//height := 8
+	//Piramid(height)
+
+	//n := 6
+	//m := 5
+	//Matrix(n, m)
+
+	//n := 10
+	//ArrChet(n)
+
+	arr := []float64{1.32, 5.21, 7, 1, 23.2}
+	fmt.Println(fmt.Sprintf("%.2f", Average(arr, len(arr))))
 }
