@@ -1,21 +1,21 @@
 package Internal
 
 import (
+	"reflect"
 	"sort"
 )
 
 func IsSortedAndHow(array []int) string {
 	arrAscending := SortAscending(array)
 	arrDescending := SortDescending(array)
-	for j := 0; j < len(array); j++ {
-		if arrAscending[j] != array[j] {
-			if arrDescending[j] != array[j] {
-				return "no"
-			}
-			return "yes, descending"
-		}
+
+	if reflect.DeepEqual(arrDescending, array) {
+		return "yes, descending"
+	} else if reflect.DeepEqual(arrAscending, array) {
+		return "yes, ascending"
+	} else {
+		return "no"
 	}
-	return "yes, ascending"
 }
 
 func SortAscending(array []int) []int {

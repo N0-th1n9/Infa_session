@@ -89,6 +89,9 @@ func main() {
 	//var x float64 = 0
 	//fmt.Println(FuncSqrs(a, b, x, n))
 
-	arr := []int{4, 4, 2, 1}
-	fmt.Println(IsSortedAndHow(arr))
+	//arr := []int{15, 7, 3, -8}
+	//fmt.Println(IsSortedAndHow(arr))
+
+	arr := []int{}
+	fmt.Println(Square(arr))
 }
