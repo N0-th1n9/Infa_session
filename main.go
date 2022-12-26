@@ -83,9 +83,12 @@ func main() {
 	//arr := []float64{1.32, 5.21, 7, 1, 23.2}
 	//fmt.Println(fmt.Sprintf("%.2f", Average(arr, len(arr))))
 
-	var a float64 = 1.5
-	var b float64 = 2
-	var n float64 = 2
-	var x float64 = 0
-	fmt.Println(FuncSqrs(a, b, x, n))
+	//var a float64 = 1.5
+	//var b float64 = 2
+	//var n float64 = 2
+	//var x float64 = 0
+	//fmt.Println(FuncSqrs(a, b, x, n))
+
+	arr := []int{4, 4, 2, 1}
+	fmt.Println(IsSortedAndHow(arr))
 }
