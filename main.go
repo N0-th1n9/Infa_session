@@ -94,6 +94,6 @@ func main() {
 	//arr := []int{}
 	//fmt.Println(Square(arr))
 
-	arr := []string{"1", "2", "3", "5", "15"}
-	FizzBuzz(arr)
+	n := 15
+	FizzBuzz(n)
 }
