@@ -2,7 +2,6 @@ package main
 
 import (
 	. "Infa_session/Internal"
-	"fmt"
 )
 
 func main() {
@@ -92,6 +91,9 @@ func main() {
 	//arr := []int{15, 7, 3, -8}
 	//fmt.Println(IsSortedAndHow(arr))
 
-	arr := []int{}
-	fmt.Println(Square(arr))
+	//arr := []int{}
+	//fmt.Println(Square(arr))
+
+	arr := []string{"1", "2", "3", "5", "15"}
+	FizzBuzz(arr)
 }
