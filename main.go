@@ -2,6 +2,7 @@ package main
 
 import (
 	. "Infa_session/Internal"
+	"fmt"
 )
 
 func main() {
@@ -94,6 +95,9 @@ func main() {
 	//arr := []int{}
 	//fmt.Println(Square(arr))
 
-	n := 15
-	FizzBuzz(n)
+	//n := 15
+	//FizzBuzz(n)
+
+	arr := []string{"Like", "Like", "Like", "Like", "Like", "Dislike", "Dislike", "Like"}
+	fmt.Println(Likes(arr))
 }
