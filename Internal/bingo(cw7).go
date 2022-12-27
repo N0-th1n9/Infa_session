@@ -1,6 +1,6 @@
 package Internal
 
-func Bingo(array []int) bool {
+func Bingo(array []int) string {
 	count := 0
 	arr := []int{2, 7, 9, 14, 15}
 
@@ -19,8 +19,8 @@ func Bingo(array []int) bool {
 		}
 	}
 	if count == 5 {
-		return true
+		return "WIN"
 	} else {
-		return false
+		return "LOSE"
 	}
 }

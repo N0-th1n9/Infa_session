@@ -2,7 +2,6 @@ package main
 
 import (
 	. "Infa_session/Internal"
-	"fmt"
 )
 
 func main() {
@@ -104,9 +103,9 @@ func main() {
 	//str := "codewars"
 	//Move(str)
 
-	num := 454793
+	num := []int{4, 5, 4, 7, 9, 3}
 	Dashes(num)
 
-	array := []int{1, 2, 3, 7, 5, 14, 7, 15, 9, 10}
-	fmt.Println(Bingo(array))
+	//array := []int{14, 14, 14, 2, 3, 7, 5, 14, 7, 15, 9, 10}
+	//fmt.Println(Bingo(array))
 }
