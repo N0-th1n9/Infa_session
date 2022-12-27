@@ -98,6 +98,15 @@ func main() {
 	//n := 15
 	//FizzBuzz(n)
 
-	arr := []string{"Like", "Like", "Like", "Like", "Like", "Dislike", "Dislike", "Like"}
-	fmt.Println(Likes(arr))
+	//arr := []string{"Like", "Like", "Like", "Like", "Like", "Dislike", "Dislike", "Like"}
+	//fmt.Println(Likes(arr))
+
+	//str := "codewars"
+	//Move(str)
+
+	num := 454793
+	Dashes(num)
+
+	array := []int{1, 2, 3, 7, 5, 14, 7, 15, 9, 10}
+	fmt.Println(Bingo(array))
 }
