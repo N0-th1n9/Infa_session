@@ -2,6 +2,7 @@ package main
 
 import (
 	. "Infa_session/Internal"
+	"fmt"
 )
 
 func main() {
@@ -10,14 +11,13 @@ func main() {
 	//MultiplicationTableV1(a)
 	//fmt.Println("\nV2")
 	//MultiplicationTableV2(a)
-
-	//max(4)
+	//
 	//a := []int{1, 2, 3, 4, -5, 10000, 4}
 	//MaxCount(a)
-
+	//
 	//b := []int{5, 5, 4, 15, 20, 1, 3, 300}
 	//fmt.Println(MaxMulti(b))
-
+	//
 	//var b float64 = 2
 	//var x float64 = 0
 	//for ; x <= 3*(math.Pi); x += 0.1 * (math.Pi) {
@@ -28,13 +28,14 @@ func main() {
 	//b := 40
 	//Rectangle(a, b)
 	//RectangleV2(a, b)
+	//RectangleV3(a, b)
 
 	//a := 10
 	//Step(a)
-
+	//
 	//arr := []int{1, 2, 3, 4, 5, 6, 100, 54, 32, 2}
 	//SumOfNumbers(arr)
-
+	//
 	//h1 := "Камень"
 	//h2 := "Бумага"
 	//switch h1 {
@@ -54,58 +55,58 @@ func main() {
 	//	h1 = "3"
 	//}
 	//StonePaperScissors(h1, h2)
-
-	/*convertTo := "С"
-	var temperature float64 = 89.6
-	fmt.Println(fmt.Sprintf("%.1f", ConvertTemp(temperature, convertTo)))*/
-
+	//
+	//convertTo := "С"
+	//var temperature float64 = 89.6
+	//fmt.Println(fmt.Sprintf("%.1f", ConvertTemp(temperature, convertTo)))
+	//
 	//var km float64 = 10
 	//var mils float64 = 10
 	//fmt.Println("KmFromMils = ", fmt.Sprintf("%.3f", KmFromMils(mils)))
 	//fmt.Println("MilsFromKm = ", fmt.Sprintf("%.3f", MilsFromKm(km)))
-
+	//
 	//Factorial(10)
-
+	//
 	//arr := []string{"0", "1", "1", "0", "1", "0"}
 	//Bit(arr)
-
+	//
 	//height := 8
 	//Piramid(height)
-
+	//
 	//n := 6
 	//m := 5
 	//Matrix(n, m)
-
+	//
 	//n := 10
 	//ArrChet(n)
-
+	//
 	//arr := []float64{1.32, 5.21, 7, 1, 23.2}
 	//fmt.Println(fmt.Sprintf("%.2f", Average(arr, len(arr))))
-
+	//
 	//var a float64 = 1.5
 	//var b float64 = 2
 	//var n float64 = 2
 	//var x float64 = 0
 	//fmt.Println(FuncSqrs(a, b, x, n))
-
+	//
 	//arr := []int{15, 7, 3, -8}
 	//fmt.Println(IsSortedAndHow(arr))
-
+	//
 	//arr := []int{}
 	//fmt.Println(Square(arr))
-
+	//
 	//n := 15
 	//FizzBuzz(n)
-
+	//
 	//arr := []string{"Like", "Like", "Like", "Like", "Like", "Dislike", "Dislike", "Like"}
 	//fmt.Println(Likes(arr))
-
+	//
 	//str := "codewars"
 	//Move(str)
-
-	num := []int{4, 5, 4, 7, 9, 3}
-	Dashes(num)
-
-	//array := []int{14, 14, 14, 2, 3, 7, 5, 14, 7, 15, 9, 10}
-	//fmt.Println(Bingo(array))
+	//
+	//num := []int{4, 5, 4, 7, 9, 3}
+	//Dashes(num)
+	//
+	array := []int{14, 14, 14, 2, 3, 7, 5, 14, 7, 15, 9, 10}
+	fmt.Println(Bingo(array))
 }
